@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my page design</title>
+    <link rel="stylesheet" href="mainstye.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo"><a href="#">Thai food</a></div>
+                <ul class="menu">
+                                        <li><a href="index.html">หน้าหลัก</a></li>
+                    <li><a href="หน้าเมนูทั้งหมด.html">สินค้า/บรีการ</a></li>
+                    <li><a href="#contact">เกี่ยวกับเรา</a></li>
+                    <li><a href="#contact">ติดต่อเรา</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="main">
+        
+    <div><img src="https://png.pngtree.com/thumb_back/fh260/background/20240715/pngtree-stir-fried-instant-noodle-with-pork-and-egg-image_15873595.jpg" alt=""></div>
+    
+    </section>
+    <section class="section">
+  <div class="container">
+
+    <!-- ชื่อเมนู -->
+    <div class="section-title">
+      <h1>ผัดมาม่า</h1>
+    </div>
+
+    <!-- แถบข้อมูล -->
+    <div class="section-bar">
+
+      <!-- ดาว -->
+      <div class="rating">
+        ⭐⭐⭐⭐⭐ <span>5 / 5</span>
+      </div>
+
+      <!-- tag -->
+      <div class="tag">
+        <span>อาหารไทย</span>
+        <span>รสจัด</span>
+      </div>
+
+    </div>
+
+    <!-- กล่องข้อมูล -->
+    <div class="info-box">
+      <div class="box">⏱ ใช้เวลา <br>30 นาที</div>
+      <div class="box">📊 ความยาก <br><b>ง่าย</b></div>
+      <div class="box">👥 สำหรับ <br>2 คน</div>
+    </div>
+
+  </div>
+        <div class="section-ssss"></div>
+</section>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>Tom Yum Menu</title>
+
+</head>
+<body>
+
+<div class="menu-header" onclick="toggleMenu()">
+  <div>ส่วนประกอบผัดมาม่า</div>
+  <div class="menu-arrow">⌄</div>
+</div>
+
+<div class="menu-content" id="menuBox">
+
+  <div class="menu-item"><span>บะหมี่กึ่งสำเร็จรูป</span><span>2 ซอง</span></div>
+  <div class="menu-item"><span>หมูสับ</span><span>150 กรัม</span></div>
+  <div class="menu-item"><span>ไข่ไก่</span><span>2 ฟอง</span></div>
+  <div class="menu-item"><span>กะหล่ำปลี</span><span>1 ถ้วย</span></div>
+  <div class="menu-item"><span>แครอท</span><span>1/2 หัว</span></div>
+  <div class="menu-item"><span>กระเทียมสับ</span><span>1 ช้อนโต๊ะ</span></div>
+  <div class="menu-item"><span>ซอสปรุงรส</span><span>1 ช้อนโต๊ะ</span></div>
+  <div class="menu-item"><span>ซีอิ๊วขาว</span><span>1 ช้อนโต๊ะ</span></div>
+  <div class="menu-item"><span>น้ำมันพืช</span><span>สำหรับผัด</span></div>
+
+</div>
+
+<script>
+function toggleMenu() {
+  const header = document.querySelector(".menu-header");
+  const menu = document.getElementById("menuBox");
+
+  header.classList.toggle("active");
+
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+</script>
+
+</body>
+
+
+<div class="tmx-title">วิธีการทำผัดมาม่า</div>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); margin-left: 100px; gap: 30px;">
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      1. เตรียมวัตถุดิบ (10 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ลวกเส้นมาม่าให้พอนิ่ม</li>
+      <li>หั่นผักเตรียมไว้</li>
+      <li>ตีไข่พักไว้</li>
+      <li>สับกระเทียม</li>
+      <li>เตรียมหมูสับ</li>
+      <li>เตรียมเครื่องปรุง</li>
+      <li>จัดทุกอย่างให้พร้อม</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      2. ผัดหมูและไข่ (5 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ตั้งกระทะใส่น้ำมัน</li>
+      <li>ใส่กระเทียมผัดหอม</li>
+      <li>ใส่หมูสับผัดให้สุก</li>
+      <li>ตอกไข่ลงไป</li>
+      <li>ยีไข่ให้เข้ากัน</li>
+      <li>ผัดจนหอม</li>
+      <li>เตรียมใส่เส้น</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      3. ใส่เส้นมาม่า (5 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ใส่เส้นลงกระทะ</li>
+      <li>เติมผงปรุงรส</li>
+      <li>ใส่ซอสปรุงรส</li>
+      <li>เติมซีอิ๊วขาว</li>
+      <li>ผัดให้เข้ากัน</li>
+      <li>คลุกให้เส้นหอม</li>
+      <li>เตรียมผัก</li>
+    </ul>
+  </div>
+
+</div>
+
+<hr style="width: 90%; border: none; height: 2px; background-color: red; margin: 15px auto;">
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); margin-left: 100px; gap: 30px;">
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      4. ใส่ผัก (2 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ใส่กะหล่ำปลี</li>
+      <li>ใส่แครอท</li>
+      <li>ผัดให้ผักสุกพอดี</li>
+      <li>คลุกให้เข้ากัน</li>
+      <li>ชิมรส</li>
+      <li>ปรับตามชอบ</li>
+      <li>เตรียมจัดจาน</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      5. ผัดรวม (2 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ผัดทุกอย่างให้เข้ากัน</li>
+      <li>ให้เส้นดูเงาและหอม</li>
+      <li>ปรับรสเพิ่มได้</li>
+      <li>ผัดจนหอมกระทะ</li>
+      <li>ปิดไฟ</li>
+      <li>เตรียมเสิร์ฟ</li>
+      <li>พร้อมรับประทาน</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      6. จัดเสิร์ฟ (1 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ตักใส่จาน</li>
+      <li>โรยพริกไทย</li>
+      <li>เสิร์ฟร้อน ๆ</li>
+      <li>เส้นเหนียวนุ่ม</li>
+      <li>หอมกลิ่นกระทะ</li>
+      <li>รสกลมกล่อม</li>
+      <li>พร้อมรับประทาน</li>
+    </ul>
+  </div>
+
+</div>
+
+
+
+
+
+
+ <section id="contact" class="contact"></section>
+  <div class="footer-top">
+        <div class="conteainer">
+            <div class="footer-top-con">
+                <div class="footer-top-item">
+                    <h4>รายการสินค้าเเละบรีการ</h4>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">เมนูพื้นบ้านอาหาร</span>
+                            <span class="info-desc">ที่ใช้วัตถุดิบในท้องถิ่นและสืบทอดกันมา เช่น แกงพื้นบ้าน น้ำพริก และผักพื้นบ้าน.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">ของหวานไทย.</span>
+                            <span class="info-desc">ของหวานไทยขนมหวานที่มีรสหวานหอมและนิยมใช้กะทิ มะพร้าว และน้ำตาล เช่น ขนมครก บัวลอย และกล้วยบวชชี.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">เมนูไทยโบราณ.</span>
+                            <span class="info-desc">อาหารที่มีสูตรและวิธีทำสืบทอดจากคนรุ่นก่อน เช่น แกงมัสมั่น ข้าวแช่ และหมี่กรอบ.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-top-item">
+                    <h4>เกี่ยวกับเรา</h4>
+                    <p>sidey.</p>
+                </div>
+                <div class="footer-top-item">
+                    <h4>social link</h4>
+                    <p>Facebook</p>
+                    <p>twitter</p>
+                    <p>Google</p>
+                </div>
+            </div>
+        </div>
+    </div>                 
+    <div class="footer-buttom">Thaifood Thank you</div>
+    
+</body>

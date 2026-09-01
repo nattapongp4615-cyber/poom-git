@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my page design</title>
+    <link rel="stylesheet" href="mainstye.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo"><a href="#">Thai food</a></div>
+                <ul class="menu">
+                                    <li><a href="index.html">หน้าหลัก</a></li>
+                    <li><a href="หน้าเมนูทั้งหมด.html">สินค้า/บรีการ</a></li>
+                    <li><a href="#contact">เกี่ยวกับเรา</a></li>
+                    <li><a href="#contact">ติดต่อเรา</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="main">
+        
+    <div><img src="image\Gemini_Generated_Image_ichkfmichkfmichk.png" alt=""></div>
+    
+    </section>
+    <section class="section">
+  <div class="container">
+
+    <!-- ชื่อเมนู -->
+    <div class="section-title">
+      <h1>ข้าวมันไก่</h1>
+    </div>
+
+    <!-- แถบข้อมูล -->
+    <div class="section-bar">
+
+      <!-- ดาว -->
+      <div class="rating">
+        ⭐⭐⭐⭐⭐ <span>5 / 5</span>
+      </div>
+
+      <!-- tag -->
+      <div class="tag">
+        <span>อาหารไทย</span>
+        <span>รสจัด</span>
+      </div>
+
+    </div>
+
+    <!-- กล่องข้อมูล -->
+    <div class="info-box">
+      <div class="box">⏱ ใช้เวลา <br>30 นาที</div>
+      <div class="box">📊 ความยาก <br><b>ง่าย</b></div>
+      <div class="box">👥 สำหรับ <br>2 คน</div>
+    </div>
+
+  </div>
+        <div class="section-ssss"></div>
+</section>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>Tom Yum Menu</title>
+
+</head>
+<body>
+
+<div class="menu-header" onclick="toggleMenu()">
+  <div>ส่วนประกอบส้มตำ</div>
+  <div class="menu-arrow">⌄</div>
+</div>
+
+<div class="menu-content" id="menuBox">
+
+  <div class="menu-item"><span>ข้าวหอมมะลิ</span><span>2 ถ้วย</span></div>
+  <div class="menu-item"><span>อกไก่หรือสะโพกไก่</span><span>500 กรัม</span></div>
+  <div class="menu-item"><span>กระเทียม</span><span>5 กลีบ</span></div>
+  <div class="menu-item"><span>ขิงแก่</span><span>1 หัว</span></div>
+  <div class="menu-item"><span>ซีอิ๊วขาว</span><span>2 ช้อนโต๊ะ</span></div>
+  <div class="menu-item"><span>น้ำปลา</span><span>2 ช้อนโต๊ะ</span></div>
+  <div class="menu-item"><span>แตงกวา</span><span>1 ลูก</span></div>
+  <div class="menu-item"><span>ผักชี</span><span>2 ต้น</span></div>
+  <div class="menu-item"><span>เต้าเจี้ยว</span><span>3 ช้อนโต๊ะ</span></div>
+  <div class="menu-item"><span>น้ำตาล</span><span>1 ช้อนโต๊ะ</span></div>
+  <div class="menu-item"><span>พริกขี้หนู</span><span>5 เม็ด</span></div>
+
+</div>
+<script>
+function toggleMenu() {
+  const header = document.querySelector(".menu-header");
+  const menu = document.getElementById("menuBox");
+
+  header.classList.toggle("active");
+
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+</script>
+
+</body>
+
+
+<div class="tmx-title">วิธีการทำข้าวมันไก่</div>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); margin-left: 100px; gap: 30px;">
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      1. เตรียมวัตถุดิบ (10 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ล้างข้าวสารให้สะอาด</li>
+      <li>ล้างไก่</li>
+      <li>หั่นขิงเป็นแว่น</li>
+      <li>สับกระเทียม</li>
+      <li>หั่นแตงกวา</li>
+      <li>ซอยพริกขี้หนู</li>
+      <li>เตรียมเครื่องปรุง</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      2. ต้มไก่ (20 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ต้มน้ำให้เดือด</li>
+      <li>ใส่ขิงลงหม้อ</li>
+      <li>ใส่ไก่ลงต้ม</li>
+      <li>ต้มจนไก่สุก</li>
+      <li>ช้อนไขมันไก่เก็บไว้</li>
+      <li>พักไก่ให้เย็น</li>
+      <li>หั่นไก่เป็นชิ้น</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      3. หุงข้าวมัน (15 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>เจียวกระเทียม</li>
+      <li>ผัดข้าวกับน้ำมันไก่</li>
+      <li>เติมน้ำซุปไก่</li>
+      <li>ใส่ขิง</li>
+      <li>หุงจนข้าวสุก</li>
+      <li>พักข้าวให้นุ่ม</li>
+      <li>เตรียมจัดจาน</li>
+    </ul>
+  </div>
+
+</div>
+
+<hr style="width: 90%; border: none; height: 2px; background-color: red; margin: 15px auto;">
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); margin-left: 100px; gap: 30px;">
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      4. ทำน้ำจิ้ม (5 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ผสมเต้าเจี้ยว</li>
+      <li>ใส่น้ำตาล</li>
+      <li>ใส่น้ำปลา</li>
+      <li>เติมพริกขี้หนู</li>
+      <li>ใส่ขิงสับ</li>
+      <li>คนให้เข้ากัน</li>
+      <li>ชิมรส</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      5. จัดจาน (3 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ตักข้าวมันใส่จาน</li>
+      <li>วางไก่ด้านบน</li>
+      <li>วางแตงกวา</li>
+      <li>โรยผักชี</li>
+      <li>เสิร์ฟพร้อมน้ำจิ้ม</li>
+      <li>เติมน้ำซุป</li>
+      <li>พร้อมเสิร์ฟ</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      6. จัดเสิร์ฟ (2 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>เสิร์ฟร้อน ๆ</li>
+      <li>ทานคู่ซุป</li>
+      <li>เพิ่มน้ำจิ้มตามชอบ</li>
+      <li>ข้าวหอมมัน</li>
+      <li>ไก่นุ่มอร่อย</li>
+      <li>รสชาติกลมกล่อม</li>
+      <li>พร้อมรับประทาน</li>
+    </ul>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+ <section id="contact" class="contact"></section>
+  <div class="footer-top">
+        <div class="conteainer">
+            <div class="footer-top-con">
+                <div class="footer-top-item">
+                    <h4>รายการสินค้าเเละบรีการ</h4>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">เมนูพื้นบ้านอาหาร</span>
+                            <span class="info-desc">ที่ใช้วัตถุดิบในท้องถิ่นและสืบทอดกันมา เช่น แกงพื้นบ้าน น้ำพริก และผักพื้นบ้าน.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">ของหวานไทย.</span>
+                            <span class="info-desc">ของหวานไทยขนมหวานที่มีรสหวานหอมและนิยมใช้กะทิ มะพร้าว และน้ำตาล เช่น ขนมครก บัวลอย และกล้วยบวชชี.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">เมนูไทยโบราณ.</span>
+                            <span class="info-desc">อาหารที่มีสูตรและวิธีทำสืบทอดจากคนรุ่นก่อน เช่น แกงมัสมั่น ข้าวแช่ และหมี่กรอบ.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-top-item">
+                    <h4>เกี่ยวกับเรา</h4>
+                    <p>sidey.</p>
+                </div>
+                <div class="footer-top-item">
+                    <h4>social link</h4>
+                    <p>Facebook</p>
+                    <p>twitter</p>
+                    <p>Google</p>
+                </div>
+            </div>
+        </div>
+    </div>                 
+    <div class="footer-buttom">Thaifood Thank you</div>
+    
+</body>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my page design</title>
+    <link rel="stylesheet" href="mainstye.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo"><a href="#">Thai food</a></div>
+                <ul class="menu">
+                                      <li><a href="index.html">หน้าหลัก</a></li>
+                    <li><a href="หน้าเมนูทั้งหมด.html">สินค้า/บรีการ</a></li>
+                    <li><a href="#contact">เกี่ยวกับเรา</a></li>
+                    <li><a href="#contact">ติดต่อเรา</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="main">
+        
+    <div><img src="https://mydiningchef.com/main/wp-content/uploads/2021/04/kao-chae-cooked-rice-soaked-iced-water-eaten-with-usual-complementary-food-1024x683.jpg" alt=""></div>
+    
+    </section>
+    <section class="section">
+  <div class="container">
+
+    <!-- ชื่อเมนู -->
+    <div class="section-title">
+      <h1>ข้าวแช่</h1>
+    </div>
+
+    <!-- แถบข้อมูล -->
+    <div class="section-bar">
+
+      <!-- ดาว -->
+      <div class="rating">
+        ⭐⭐⭐⭐⭐ <span>5 / 5</span>
+      </div>
+
+      <!-- tag -->
+      <div class="tag">
+        <span>อาหารไทย</span>
+        <span>รสจัด</span>
+      </div>
+
+    </div>
+
+    <!-- กล่องข้อมูล -->
+    <div class="info-box">
+      <div class="box">⏱ ใช้เวลา <br>30 นาที</div>
+      <div class="box">📊 ความยาก <br><b>ง่าย</b></div>
+      <div class="box">👥 สำหรับ <br>2 คน</div>
+    </div>
+
+  </div>
+        <div class="section-ssss"></div>
+</section>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>Tom Yum Menu</title>
+
+</head>
+<body>
+
+<div class="menu-header" onclick="toggleMenu()">
+  <div>ส่วนประกอบข้าวแช่</div>
+  <div class="menu-arrow">⌄</div>
+</div>
+
+<div class="menu-content" id="menuBox">
+
+  <div class="menu-item"><span>ข้าวสวยเย็น</span><span>1 ถ้วย</span></div>
+  <div class="menu-item"><span>น้ำลอยดอกมะลิ</span><span>2 ถ้วย</span></div>
+  <div class="menu-item"><span>ลูกกะปิทอด</span><span>5–7 ลูก</span></div>
+  <div class="menu-item"><span>พริกหยวกยัดไส้</span><span>3 ชิ้น</span></div>
+  <div class="menu-item"><span>หอมแดงทอด</span><span>5 หัว</span></div>
+  <div class="menu-item"><span>หมูฝอย</span><span>2 ช้อนโต๊ะ</span></div>
+  <div class="menu-item"><span>ไข่ฝอย</span><span>2 ช้อนโต๊ะ</span></div>
+  <div class="menu-item"><span>น้ำตาล</span><span>เล็กน้อย</span></div>
+  <div class="menu-item"><span>น้ำแข็ง</span><span>ตามชอบ</span></div>
+
+</div>
+
+<script>
+function toggleMenu() {
+  const header = document.querySelector(".menu-header");
+  const menu = document.getElementById("menuBox");
+
+  header.classList.toggle("active");
+
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+</script>
+
+</body>
+
+
+<div class="tmx-title">วิธีการทำข้าวแช่</div>  
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); margin-left: 100px; gap: 30px;">
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      1. เตรียมน้ำลอยดอกมะลิ (6–12 ชั่วโมง)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ล้างดอกมะลิให้สะอาด</li>
+      <li>แช่ในน้ำสะอาด</li>
+      <li>ปิดฝาทิ้งไว้ค้างคืน</li>
+      <li>ให้กลิ่นหอมละมุน</li>
+      <li>กรองเอาดอกออก</li>
+      <li>แช่เย็นไว้</li>
+      <li>เตรียมเสิร์ฟ</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      2. เตรียมเครื่องเคียง (20–30 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ปั้นลูกกะปิแล้วทอด (10 นาที)</li>
+      <li>ยัดไส้พริกหยวก (10 นาที)</li>
+      <li>ทอดหอมแดง (5 นาที)</li>
+      <li>เตรียมหมูฝอย (5 นาที)</li>
+      <li>ทำไข่ฝอย</li>
+      <li>จัดเครื่องเคียง</li>
+      <li>พักให้เย็น</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      3. เตรียมข้าว (5 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>หุงข้าวให้สวย</li>
+      <li>พักให้เย็นสนิท</li>
+      <li>ปั้นหรือจัดใส่จาน</li>
+      <li>ไม่ให้ร้อน</li>
+      <li>เตรียมเสิร์ฟกับน้ำเย็น</li>
+      <li>จัดข้าวให้สวยงาม</li>
+      <li>พร้อมจัดจาน</li>
+    </ul>
+  </div>
+
+</div>
+
+<hr style="width: 90%; border: none; height: 2px; background-color: red; margin: 15px auto;">
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); margin-left: 100px; gap: 30px;">
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      4. จัดเครื่องเคียง (5–10 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>จัดลูกกะปิลงจาน</li>
+      <li>วางพริกหยวก</li>
+      <li>ใส่หอมแดงทอด</li>
+      <li>ใส่หมูฝอย</li>
+      <li>ใส่ไข่ฝอย</li>
+      <li>จัดให้สวยงาม</li>
+      <li>พร้อมเสิร์ฟ</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      5. ราดน้ำลอยดอกมะลิ (2 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ใส่ข้าวลงชาม</li>
+      <li>เติมน้ำลอยดอกมะลิเย็น</li>
+      <li>ใส่น้ำแข็ง</li>
+      <li>ให้ข้าวแช่เย็นสดชื่น</li>
+      <li>กลิ่นหอมดอกมะลิ</li>
+      <li>พร้อมรับประทาน</li>
+      <li>ชื่นใจมาก</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      6. เสิร์ฟข้าวแช่ (1–2 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>จัดจานให้สวย</li>
+      <li>วางข้าวกลางจาน</li>
+      <li>ล้อมด้วยเครื่องเคียง</li>
+      <li>เสิร์ฟทันที</li>
+      <li>กินคู่เครื่องเคียง</li>
+      <li>รสเย็นสดชื่น</li>
+      <li>เหมาะหน้าร้อน</li>
+    </ul>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+ <section id="contact" class="contact"></section>
+  <div class="footer-top">
+        <div class="conteainer">
+            <div class="footer-top-con">
+                <div class="footer-top-item">
+                    <h4>รายการสินค้าเเละบรีการ</h4>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">เมนูพื้นบ้านอาหาร</span>
+                            <span class="info-desc">ที่ใช้วัตถุดิบในท้องถิ่นและสืบทอดกันมา เช่น แกงพื้นบ้าน น้ำพริก และผักพื้นบ้าน.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">ของหวานไทย.</span>
+                            <span class="info-desc">ของหวานไทยขนมหวานที่มีรสหวานหอมและนิยมใช้กะทิ มะพร้าว และน้ำตาล เช่น ขนมครก บัวลอย และกล้วยบวชชี.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">เมนูไทยโบราณ.</span>
+                            <span class="info-desc">อาหารที่มีสูตรและวิธีทำสืบทอดจากคนรุ่นก่อน เช่น แกงมัสมั่น ข้าวแช่ และหมี่กรอบ.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-top-item">
+                    <h4>เกี่ยวกับเรา</h4>
+                    <p>sidey.</p>
+                </div>
+                <div class="footer-top-item">
+                    <h4>social link</h4>
+                    <p>Facebook</p>
+                    <p>twitter</p>
+                    <p>Google</p>
+                </div>
+            </div>
+        </div>
+    </div>                 
+    <div class="footer-buttom">Thaifood Thank you</div>
+    
+</body>

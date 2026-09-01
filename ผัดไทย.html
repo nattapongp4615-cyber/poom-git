@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my page design</title>
+    <link rel="stylesheet" href="mainstye.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo"><a href="#">Thai food</a></div>
+                <ul class="menu">
+                                       <li><a href="index.html">หน้าหลัก</a></li>
+                    <li><a href="หน้าเมนูทั้งหมด.html">สินค้า/บรีการ</a></li>
+                    <li><a href="#contact">เกี่ยวกับเรา</a></li>
+                    <li><a href="#contact">ติดต่อเรา</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="main">
+        
+    <div><img src="https://downtownbellevue.com/wp-content/uploads/2019/05/image1phadthai.jpg" alt=""></div>
+    
+    </section>
+    <section class="section">
+  <div class="container">
+
+    <!-- ชื่อเมนู -->
+    <div class="section-title">
+      <h1>ผัดไทย</h1>
+    </div>
+
+    <!-- แถบข้อมูล -->
+    <div class="section-bar">
+
+      <!-- ดาว -->
+      <div class="rating">
+        ⭐⭐⭐⭐⭐ <span>5 / 5</span>
+      </div>
+
+      <!-- tag -->
+      <div class="tag">
+        <span>อาหารไทย</span>
+        <span>รสจัด</span>
+      </div>
+
+    </div>
+
+    <!-- กล่องข้อมูล -->
+    <div class="info-box">
+      <div class="box">⏱ ใช้เวลา <br>30 นาที</div>
+      <div class="box">📊 ความยาก <br><b>ง่าย</b></div>
+      <div class="box">👥 สำหรับ <br>2 คน</div>
+    </div>
+
+  </div>
+        <div class="section-ssss"></div>
+</section>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>Tom Yum Menu</title>
+
+</head>
+<body>
+
+<div class="menu-header" onclick="toggleMenu()">
+  <div>ส่วนประกอบผัดไทย</div>
+  <div class="menu-arrow">⌄</div>
+</div>
+
+<div class="menu-content" id="menuBox">
+  <div class="menu-item"><span>เส้นผัดไทย</span><span>200 กรัม</span></div>
+  <div class="menu-item"><span>กุ้งสด</span><span>8 ตัว</span></div>
+  <div class="menu-item"><span>เต้าหู้เหลือง</span><span>100 กรัม</span></div>
+  <div class="menu-item"><span>ไข่ไก่</span><span>2 ฟอง</span></div>
+  <div class="menu-item"><span>ถั่วงอก</span><span>1 ถ้วย</span></div>
+  <div class="menu-item"><span>กุยช่าย</span><span>1/2 ถ้วย</span></div>
+  <div class="menu-item"><span>ถั่วลิสงบด</span><span>2 ช้อนโต๊ะ</span></div>
+  <div class="menu-item"><span>น้ำปลา</span><span>2 ช้อนโต๊ะ</span></div>
+  <div class="menu-item"><span>น้ำมะขามเปียก</span><span>3 ช้อนโต๊ะ</span></div>
+  <div class="menu-item"><span>น้ำตาลปี๊บ</span><span>1 ช้อนโต๊ะ</span></div>
+  <div class="menu-item"><span>พริกป่น</span><span>1 ช้อนชา</span></div>
+  <div class="menu-item"><span>มะนาว</span><span>1 ลูก</span></div>
+</div>
+
+<script>
+function toggleMenu() {
+  const header = document.querySelector(".menu-header");
+  const menu = document.getElementById("menuBox");
+
+  header.classList.toggle("active");
+
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+</script>
+
+</body>
+
+
+<div class="tmx-title">วิธีการทำผัดไทย</div>  
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); margin-left: 100px; gap: 30px;">
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      1. เตรียมวัตถุดิบ (10–15 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>แช่เส้นผัดไทยให้นิ่ม (5 นาที)</li>
+      <li>ล้างกุ้งให้สะอาด (2 นาที)</li>
+      <li>หั่นเต้าหู้ (2 นาที)</li>
+      <li>ล้างถั่วงอก (2 นาที)</li>
+      <li>หั่นกุยช่าย (2 นาที)</li>
+      <li>เตรียมไข่ (1 นาที)</li>
+      <li>เตรียมถั่วลิสงบด (1 นาที)</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      2. ผัดเต้าหู้ + กุ้ง (3–5 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ตั้งกระทะใส่น้ำมัน (30 วินาที)</li>
+      <li>ใส่เต้าหู้ลงผัด (1–2 นาที)</li>
+      <li>ผัดจนเหลืองหอม</li>
+      <li>ใส่กุ้งลงไป (1–2 นาที)</li>
+      <li>ผัดจนกุ้งเปลี่ยนสีชมพู</li>
+      <li>คนให้เข้ากัน</li>
+      <li>เตรียมใส่เส้น</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      3. ผัดเส้นผัดไทย (5–7 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ใส่เส้นลงกระทะ</li>
+      <li>เติมน้ำมะขามเปียก</li>
+      <li>ใส่น้ำปลา + น้ำตาลปี๊บ</li>
+      <li>ผัดไฟกลาง (2–3 นาที)</li>
+      <li>คลุกจนเส้นเริ่มนิ่ม</li>
+      <li>ผัดต่อจนซึมซอส (2–3 นาที)</li>
+      <li>เส้นต้องเหนียวนุ่ม</li>
+    </ul>
+  </div>
+
+</div>
+
+<hr style="width: 90%; border: none; height: 2px; background-color: red; margin: 15px auto;">
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); margin-left: 100px; gap: 30px;">
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      4. ใส่ไข่ (2–3 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>เขี่ยเส้นไว้ข้างกระทะ</li>
+      <li>ตอกไข่ลงกลางกระทะ</li>
+      <li>ยีไข่ให้แตก (30 วินาที)</li>
+      <li>รอให้ไข่เริ่มสุก (1 นาที)</li>
+      <li>คลุกกับเส้น (1 นาที)</li>
+      <li>ผัดให้หอม</li>
+      <li>เตรียมใส่ผัก</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      5. ใส่ผัก + ถั่วงอก (1–2 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ใส่ถั่วงอกลงไป</li>
+      <li>ใส่กุยช่าย</li>
+      <li>ผัดเร็ว ๆ (30–60 วินาที)</li>
+      <li>ให้ผักยังกรอบ</li>
+      <li>ใส่พริกป่น</li>
+      <li>คลุกให้ทั่ว</li>
+      <li>ปิดไฟทันที</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      6. จัดเสิร์ฟ (2 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ตักใส่จาน</li>
+      <li>โรยถั่วลิสงบด</li>
+      <li>จัดมะนาวข้างจาน</li>
+      <li>เพิ่มพริกป่นตามชอบ</li>
+      <li>ตกแต่งให้น่ากิน</li>
+      <li>เสิร์ฟร้อน ๆ</li>
+      <li>พร้อมรับประทาน</li>
+    </ul>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+ <section id="contact" class="contact"></section>
+  <div class="footer-top">
+        <div class="conteainer">
+            <div class="footer-top-con">
+                <div class="footer-top-item">
+                    <h4>รายการสินค้าเเละบรีการ</h4>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">เมนูพื้นบ้านอาหาร</span>
+                            <span class="info-desc">ที่ใช้วัตถุดิบในท้องถิ่นและสืบทอดกันมา เช่น แกงพื้นบ้าน น้ำพริก และผักพื้นบ้าน.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">ของหวานไทย.</span>
+                            <span class="info-desc">ของหวานไทยขนมหวานที่มีรสหวานหอมและนิยมใช้กะทิ มะพร้าว และน้ำตาล เช่น ขนมครก บัวลอย และกล้วยบวชชี.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">เมนูไทยโบราณ.</span>
+                            <span class="info-desc">อาหารที่มีสูตรและวิธีทำสืบทอดจากคนรุ่นก่อน เช่น แกงมัสมั่น ข้าวแช่ และหมี่กรอบ.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-top-item">
+                    <h4>เกี่ยวกับเรา</h4>
+                    <p>sidey.</p>
+                </div>
+                <div class="footer-top-item">
+                    <h4>social link</h4>
+                    <p>Facebook</p>
+                    <p>twitter</p>
+                    <p>Google</p>
+                </div>
+            </div>
+        </div>
+    </div>                 
+    <div class="footer-buttom">Thaifood Thank you</div>
+    
+</body>

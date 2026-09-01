@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my page design</title>
+    <link rel="stylesheet" href="mainstye.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo"><a href="#">Thai food</a></div>
+                <ul class="menu">
+                                    <li><a href="index.html">หน้าหลัก</a></li>
+                    <li><a href="หน้าเมนูทั้งหมด.html">สินค้า/บรีการ</a></li>
+                    <li><a href="#contact">เกี่ยวกับเรา</a></li>
+                    <li><a href="#contact">ติดต่อเรา</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="main">
+        
+    <div><img src="https://www.beautifulvoyager.com/wp-content/uploads/2024/09/Promo-Website-Website-landscape-content-8-900x600.jpeg" alt=""></div>
+    
+    </section>
+    <section class="section">
+  <div class="container">
+
+    <!-- ชื่อเมนู -->
+    <div class="section-title">
+      <h1>ขนมชั้น</h1>
+    </div>
+
+    <!-- แถบข้อมูล -->
+    <div class="section-bar">
+
+      <!-- ดาว -->
+      <div class="rating">
+        ⭐⭐⭐⭐⭐ <span>5 / 5</span>
+      </div>
+
+      <!-- tag -->
+      <div class="tag">
+        <span>อาหารไทย</span>
+        <span>รสจัด</span>
+      </div>
+
+    </div>
+
+    <!-- กล่องข้อมูล -->
+    <div class="info-box">
+      <div class="box">⏱ ใช้เวลา <br>30 นาที</div>
+      <div class="box">📊 ความยาก <br><b>ง่าย</b></div>
+      <div class="box">👥 สำหรับ <br>2 คน</div>
+    </div>
+
+  </div>
+        <div class="section-ssss"></div>
+</section>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>Tom Yum Menu</title>
+
+</head>
+<body>
+<div class="menu-header" onclick="toggleMenu()">
+  <div>ส่วนประกอบขนมชั้น</div>
+  <div class="menu-arrow">⌄</div>
+</div>
+
+<div class="menu-content" id="menuBox">
+
+  <div class="menu-item"><span>แป้งมันสำปะหลัง</span><span>1 ถ้วย</span></div>
+  <div class="menu-item"><span>แป้งท้าวยายม่อม</span><span>1/2 ถ้วย</span></div>
+  <div class="menu-item"><span>แป้งข้าวเจ้า</span><span>1/2 ถ้วย</span></div>
+  <div class="menu-item"><span>กะทิ</span><span>2 ถ้วย</span></div>
+  <div class="menu-item"><span>น้ำตาลทราย</span><span>1 ถ้วย</span></div>
+  <div class="menu-item"><span>น้ำใบเตย (หรือสีอาหาร)</span><span>ตามชอบ</span></div>
+
+</div>
+
+<script>
+function toggleMenu() {
+  const header = document.querySelector(".menu-header");
+  const menu = document.getElementById("menuBox");
+
+  header.classList.toggle("active");
+
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+</script>
+
+</body>
+
+
+<div class="tmx-title">วิธีการทำขนมชั้น</div>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); margin-left: 100px; gap: 30px;">
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      1. ผสมแป้ง (10 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ผสมแป้งทั้ง 3 ชนิด</li>
+      <li>เติมน้ำตาล</li>
+      <li>ใส่กะทิ</li>
+      <li>คนให้ละลาย</li>
+      <li>กรองแป้งให้เนียน</li>
+      <li>แบ่งแป้งเป็นส่วน</li>
+      <li>เตรียมสี</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      2. แบ่งสีแป้ง (5 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>แบ่งแป้งเป็นหลายถ้วย</li>
+      <li>ผสมสีใบเตย</li>
+      <li>หรือสีชมพู/เขียว/ฟ้า</li>
+      <li>คนให้สีเข้ากัน</li>
+      <li>เตรียมนึ่ง</li>
+      <li>จัดเรียงถาด</li>
+      <li>พร้อมเทแป้ง</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      3. เตรียมนึ่ง (5 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ตั้งหม้อนึ่ง</li>
+      <li>รอให้น้ำเดือด</li>
+      <li>เตรียมถาด</li>
+      <li>ทาน้ำมันบาง ๆ</li>
+      <li>กันติดพิมพ์</li>
+      <li>พร้อมเริ่มชั้นแรก</li>
+      <li>เตรียมนึ่ง</li>
+    </ul>
+  </div>
+
+</div>
+
+<hr style="width: 90%; border: none; height: 2px; background-color: red; margin: 15px auto;">
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); margin-left: 100px; gap: 30px;">
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      4. นึ่งทีละชั้น (15-20 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>เทแป้งชั้นแรก</li>
+      <li>นึ่งจนสุก</li>
+      <li>เทชั้นต่อไป</li>
+      <li>ทำสลับสี</li>
+      <li>นึ่งทีละชั้น</li>
+      <li>ทำจนเต็มถาด</li>
+      <li>พักให้เย็น</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      5. พักขนม (30 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ปล่อยให้เย็น</li>
+      <li>ขนมเซ็ตตัว</li>
+      <li>แข็งพอดี</li>
+      <li>ไม่เละ</li>
+      <li>เตรียมตัด</li>
+      <li>ใช้มีดคม</li>
+      <li>จัดรูปทรง</li>
+    </ul>
+  </div>
+
+  <div>
+    <h4 style="font-size: 13pt; text-decoration: underline; margin-bottom: 15px;">
+      6. จัดเสิร์ฟ (5 นาที)
+    </h4>
+
+    <ul style="font-size: 10pt;">
+      <li>ตัดเป็นชิ้นพอดีคำ</li>
+      <li>จัดเรียงในจาน</li>
+      <li>ให้เห็นชั้นสี</li>
+      <li>สวยงามเป็นชั้น</li>
+      <li>หอมกะทิ</li>
+      <li>หวานกำลังดี</li>
+      <li>พร้อมเสิร์ฟ</li>
+    </ul>
+  </div>
+
+</div>
+
+
+
+
+
+
+ <section id="contact" class="contact"></section>
+  <div class="footer-top">
+        <div class="conteainer">
+            <div class="footer-top-con">
+                <div class="footer-top-item">
+                    <h4>รายการสินค้าเเละบรีการ</h4>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">เมนูพื้นบ้านอาหาร</span>
+                            <span class="info-desc">ที่ใช้วัตถุดิบในท้องถิ่นและสืบทอดกันมา เช่น แกงพื้นบ้าน น้ำพริก และผักพื้นบ้าน.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">ของหวานไทย.</span>
+                            <span class="info-desc">ของหวานไทยขนมหวานที่มีรสหวานหอมและนิยมใช้กะทิ มะพร้าว และน้ำตาล เช่น ขนมครก บัวลอย และกล้วยบวชชี.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">เมนูไทยโบราณ.</span>
+                            <span class="info-desc">อาหารที่มีสูตรและวิธีทำสืบทอดจากคนรุ่นก่อน เช่น แกงมัสมั่น ข้าวแช่ และหมี่กรอบ.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-top-item">
+                    <h4>เกี่ยวกับเรา</h4>
+                    <p>sidey.</p>
+                </div>
+                <div class="footer-top-item">
+                    <h4>social link</h4>
+                    <p>Facebook</p>
+                    <p>twitter</p>
+                    <p>Google</p>
+                </div>
+            </div>
+        </div>
+    </div>                 
+    <div class="footer-buttom">Thaifood Thank you</div>
+    
+</body>
