@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my page design</title>
+    <link rel="stylesheet" href="mainstye.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo"><a href="#">Thai food</a></div>
+                <ul class="menu">
+                    <li><a href="index.html">หน้าหลัก</a></li>
+                    <li><a href="หน้าเมนูทั้งหมด.html">สินค้า/บรีการ</a></li>
+                    <li><a href="#contact">เกี่ยวกับเรา</a></li>
+                    <li><a href="#contact">ติดต่อเรา</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="maincontent">
+        <div class="container">
+         <div class="maincontent-con">
+            <div class="maincontent-info">
+              <h3>อาหารไทย</h3>
+            <p>อาหารไทย (Thai Food)   เป็นหนึ่งในอาหารที่ได้รับความนิยมทั่วโลก ด้วยรสชาติที่เป็นเอกลักษณ์ ทั้งเผ็ด เปรี้ยว หวาน และเค็ม ที่ผสมผสานกันอย่างลงตัว ทำให้เกิดความกลมกล่อมที่ไม่เหมือนอาหารชาติไหนอาหารไทยไม่เพียงแต่อร่อย แต่ยังมีความหลากหลาย ทั้งอาหารจานเดียว แกง ซุป และอาหารทานเล่น โดยแต่ละภาคของประเทศไทยก็มีเอกลักษณ์เฉพาะตัว เช่น อาหารภาคกลางที่รสกลมกล่อม อาหารอีสานที่เน้นความจัดจ้าน และอาหารใต้ที่เผ็ดร้อนเข้มข้นอีกหนึ่งจุดเด่นของอาหารไทยคือการใช้วัตถุดิบสดใหม่จากธรรมชาติ เช่น สมุนไพรไทย ผักพื้นบ้าน และเครื่องเทศต่าง ๆ </p>
+            
+            </div>
+
+            <div class="maincontent-img">
+               <img src="" alt="">
+
+            </div>
+         </div>
+        </div>
+    </section>
+ <section class="content">
+  
+  <div class="content-header">
+    <div class="container">
+      <h2>หลากไอเดียเมนูอื่น ๆ ที่คุณสนใจ</h2>
+      <p>ค้นพบไอเดียการทำอาหารใหม่ ๆ ได้ทุกวัน</p>
+    </div>
+  </div>
+
+  <div class="category-bar">
+    <div class="container">
+
+<a href="#" class="active" onclick="setActive(this,'เมนูยอดนิยม'); return false;">เมนูยอดนิยม</a>
+
+<a href="#" onclick="setActive(this,'เมนูไทยโบราณ'); return false;">เมนูไทยโบราณ</a>
+
+<a href="#" onclick="setActive(this,'เมนูง่ายๆ'); return false;">เมนูง่ายๆ</a>
+
+<a href="#" onclick="setActive(this,'เมนูเช้าง่าย'); return false;">เมนูเช้าง่าย</a>
+
+<a href="#" onclick="setActive(this,'เมนูพื้นบ้าน'); return false;">เมนูพื้นบ้าน</a>
+
+<a href="#" onclick="setActive(this,'ของหวานไทย'); return false;">ของหวานไทย</a>
+
+<a href="#" onclick="setActive(this,'เมนูรสจัดจ้าน'); return false;">เมนูรสจัดจ้าน</a>
+
+    </div>
+  </div>
+
+</section>
+
+    <section class="content">
+        <div class="container">
+            <div class="content-con">
+                <div class="content-item" data-category="เมนูยอดนิยม">
+                    <img src="https://th.bing.com/th/id/R.7a2608378b1d55e921291fa5071fbc0a?rik=KrM2ZAUpHyDiyw&pid=ImgRaw&r=0" alt="">
+                    <h4>ต้มยำกุ้ง</h4>
+                    <p>(Tom Yum Goong): ซุปกุ้งรสเผ็ดเปรี้ยว</p>
+                    <a href="ต้มยำกุ้ง.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูยอดนิยม">
+                    <img src="https://cdn77-s3.lazycatkitchen.com/wp-content/uploads/2021/01/healthier-vegan-pad-thai-macro-800x1200.jpg" alt="">
+                    <h4>ผัดไทย</h4>
+                    <p>(Pad Thai): เส้นก๋วยเตี๋ยวผัดกับกุ้งไก่</p>
+                    <a href="ผัดไทย.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูยอดนิยม">
+                    <img src="https://www.fooddealoem.com/wp-content/uploads/2023/06/roti-green-curry-with-chicken.jpg" alt="">
+                    <h4>แกงเขียวหวาน</h4>
+                    <p>(Green Curry): แกงที่มีรสชาติเผ็ดหอม</p>
+                    <a href="แกงเขียวหวาน.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูยอดนิยม">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.S-PmKTvgk76TMtHKYz-uEQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3=">
+                    <h4>ส้มตำ</h4>
+                    <p>(Som Tum): สลัดมะละกอสไตล์อีสาน</p>
+                    <a href="ส้มตำ.html"class="content-btn">สูตรอาหาร</a>
+                </div>
+
+                
+                
+                
+                <div class="content-item" data-category="เมนูไทยโบราณ">
+                    <img src="https://mydiningchef.com/main/wp-content/uploads/2021/04/kao-chae-cooked-rice-soaked-iced-water-eaten-with-usual-complementary-food-1024x683.jpg" alt="">
+                    <h4>ข้าวแช่</h4>
+                    <p>(Khao chae) เป็นอาหารไทยดั้งเดิม</p>
+                    <a href="ข้าวแช่.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูไทยโบราณ">
+                    <img src="https://img.wongnai.com/p/1920x0/2018/12/02/5a7dc11f548b4aeca1b29641b6434441.jpg" alt="">
+                    <h4>หลนเต้าเจี้ยว</h4>
+                    <p>(Fermented soybean dip) น้ำจิ้มเต้าเจี้ยว</p>
+                    <a href="หลนเต้าเจี้ยว.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูไทยโบราณ">
+                    <img src="https://www.unileverfoodsolutions.co.th/dam/global-ufs/mcos/SEA/calcmenu/recipes/TH-recipes/%E0%B8%82%E0%B8%99%E0%B8%A1%E0%B8%88%E0%B8%B5%E0%B8%99%E0%B8%8B%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2/LINE_ALBUM_Images%20for%20website_250526_2.jpg" alt="">
+                    <h4>ขนมจีนซาวน้ำ</h4>
+                    <p>(Kanom Jeen Sao Nam) ขนมจีนซาวน้ำ</p>
+                    <a href="ขนมจีนซาวน้ำ.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูไทยโบราณ">
+                    <img src="https://naturalpalm.com/wp-content/uploads/2018/08/%E0%B8%AB%E0%B8%A1%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%9A%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%A7%E0%B8%B1%E0%B8%87-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93%E0%B8%8A%E0%B8%A7%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%AD%E0%B8%A2-16082018.jpg" alt="">
+                    <h4>หมี่กรอบชาววัง</h4>
+                    <p>(Mee Krob ChaoWang) บะหมี่กรอบ</p>
+                    <a href="หมี่กรอบชาววัง.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                
+                
+                
+                
+                <div class="content-item" data-category="เมนูง่ายๆ">
+                    <img src="https://www.unileverfoodsolutions.co.th/dam/global-ufs/mcos/SEA/calcmenu/recipes/TH-recipes/red-meats-&-red-meat-dishes/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A/%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%A3%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%AA%E0%B8%B1%E0%B8%9A_header.jpg" alt="">
+                    <h4>ผัดกะเพรา</h4>
+                    <p>(Pad Krapao): ผัดใบกะเพรากับเนื้อสัตว์</p>
+                    <a href="ผัดกะเพรา.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูง่ายๆ">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.gIujrAnXCPwGzDf3e6AdewHaE8?w=1000&h=667&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                    <h4>ข้าวผัดไข่</h4>
+                    <p>(Khao Pad Kai): ข้าวผัดใส่ไข่</p>
+                    <a href="ข้าวผัดไข่.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูง่ายๆ">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.aBLb4ILy1f4nm5zBY_2Q1gHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                    <h4>หมูทอดกระเทียม</h4>
+                    <p>(Moo Tod Kratiem): หมูทอด</p>
+                    <a href="หมูทอดกระเทียม.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูง่ายๆ">
+                    <img src="https://img.wongnai.com/p/1968x0/2018/04/03/04f29e48190b499a8a9f58115d02fa9f.jpg">
+                    <h4>ฉู่ฉี่ปลาทอด</h4>
+                    <p>(Chu Chee Fried Fish): ปลาทอดราดแกง</p>
+                    <a href="ฉู่ฉี่ปลาทอด.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                
+                
+                
+                <div class="content-item" data-category="เมนูเช้าง่าย">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.GchEB8Oz1s2VGTXgtOUa4gHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                    <h4>โจ๊กหมูสับ</h4>
+                    <p>(Jok Moo Sap): โจ๊กข้าวต้มเนื้อเนียน</p>
+                    <a href="โจ๊กหมูสับ.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูเช้าง่าย">
+                    <img src="https://th.bing.com/th/id/OIP.lnI3Hvf_loF-Qu7Or93NHQHaE8?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                    <h4>ข้าวไข่เจียว</h4>
+                    <p>(Khao Kai Jeow): ข้าวราดไข่เจียวทอดฟู</p>
+                    <a href="ข้าวไข่เจียว.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูเช้าง่าย">
+                    <img src="https://static.thairath.co.th/media/Dtbezn3nNUxytg04aiIPDTeX7iwDs5lgFH44ROc3RMC7Tk.jpg" alt="">
+                    <h4>ไก่ยาง</h4>
+                    <p>(Gai Yang): ไก่ย่างหมักเครื่องเทศ</p>
+                    <a href="ไก่ยาง.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูเช้าง่าย">
+                    <img src="https://cms.dmpcdn.com/ugcarticle/2025/08/09/8e0cf430-7498-11f0-9bef-7177a74477f7_webp_original.webp" alt="">
+                    <h4>ไข่ทรงเครื่อง</h4>
+                    <p>(Kai Song Krueng): ไข่เจียวใส่เครื่อง</p>
+                    <a href="ไข่ทรงเครื่อง.html"class="content-btn">สูตรอาหาร</a>
+                
+                </div>
+                
+                
+                
+                <div class="content-item" data-category="เมนูพื้นบ้าน">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.Mr5A-hy_Q5reb3O_0Es8igHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                    <h4>แกงไตปลา</h4>
+                    <p>(Kaeng Tai Pla): แกงใต้รสจัด</p>
+                    <a href="แกงไตปลา.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูพื้นบ้าน">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.W97hoZ8-e8ImTI0BwuiupwHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+                    <h4>ข้าวซอย</h4>
+                    <p>(Khao Man Gai): ก๋วยเตี๋ยวแกงภาคเหนือ</p>
+                    <a href="ข้าวซอย.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูพื้นบ้าน">
+                    <img src="https://static.thairath.co.th/media/dFQROr7oWzulq5Fa4MvAZOQmFYm5g8Akcteb0xDPjFxHFlIk2o1yj8V0dkbCFDOhPmz.jpg" alt="">
+                    <h4>ข้าวมันไก่</h4>
+                    <p>(Khao Man Gai):ข้าวหุงมันไก่ภาคกลาง</p>
+                    <a href="ข้าวมันไก่.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูพื้นบ้าน">
+                    <img src="https://img.wongnai.com/p/1968x0/2018/08/19/5b13c3d86a9546e2ada50842f85731e2.jpg" alt="">
+                    <h4>ลาบ</h4>
+                    <p>(Larb): ยำเนื้อสับรสอีสาน</p>
+                    <a href="ลาบ.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+
+
+
+                <div class="content-item" data-category="ของหวานไทย">
+                    <img src="https://media.istockphoto.com/id/1136774560/photo/mango-sticky-rice.jpg?s=170667a&w=0&k=20&c=IjEpb49WTmDPRnx48uhBMCZGUQOtj_PEJEG-paeIGo8=" alt="">
+                    <h4>ข้าวเหนียวมะม่วง</h4>
+                    <p>(Mango Sticky Rice): ข้าวเหนียวมูนเสิร์ฟกับมะม่วงสุก</p>
+                    <a href="ข้าวเหนียวมะม่วง.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="ของหวานไทย">
+                    <img src="https://media.istockphoto.com/id/2012069456/photo/kanom-krok-thai-coconut-pancake-with-spring-onion-traditional-thai-dessert.jpg?s=612x612&w=0&k=20&c=ZuxZwOpM9ImIyKyICFsSAwqo4VU592x5mBWzMc-7b7g=" alt="">
+                    <h4>ขนมครก</h4>
+                    <p>(Kanom Krok): ขนมไทยทำจากแป้งข้าวและกะทิ</p>
+                    <a href="ขนมครก.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="ของหวานไทย">
+                    <img src="https://www.ryoiireview.com/upload/article/202301/1674803909_8cc592a1ca59da0b188ad9d9f2d707dc.jpg" alt="">
+                    <h4>ปาท่องโก๋</h4>
+                    <p>(Patongko):ปาท่องโก๋ คือแป้งทอดกรอบ นิยมกินคู่กับนมข้นหรือโจ๊ก</p>
+                    <a href="ปาท่องโก๋.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="ของหวานไทย">
+                    <img src="https://www.beautifulvoyager.com/wp-content/uploads/2024/09/Promo-Website-Website-landscape-content-8-900x600.jpeg" alt="">
+                    <h4>ขนมชั้น</h4>
+                    <p>(Khanom Chan): คือขนมไทยเนื้อนุ่มทำจากแป้งและกะทิ</p>
+                    <a href="ขนมชั้น.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+
+              
+
+
+                <div class="content-item" data-category="เมนูรสจัดจ้าน">
+                    <img src="https://img.wongnai.com/p/1968x0/2018/08/17/904fed6bcf004945bf96e5762a1af31a.jpg" alt="">
+                    <h4>ยำไก่แซ่บ</h4>
+                    <p>(Yam Kai Saap): คือสลัดไก่ทอดคลุกน้ำยำรสเผ็ด</p>
+                    <a href="ยำไก่แซ่บ.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูรสจัดจ้าน">
+                    <img src="https://i.ytimg.com/vi/pFgi7JyPG0E/maxresdefault.jpg" alt="">
+                    <h4>ยำวุ้นเส้น</h4>
+                    <p>(Yam Woon Sen): ยำวุ้นเส้นคือยำรสเปรี้ยวเผ็ด</p>
+                    <a href="ยำวุ้นเส้น.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูรสจัดจ้าน">
+                    <img src="https://img.freepik.com/premium-photo/pad-see-ew-vintage-cloth-pad-see-ew-thai-stir-fried-rice-noodles_1020697-252761.jpg?w=1480" alt="">
+                    <h4>ผัดซีอิ๊ว</h4>
+                    <p>(Padw See E):ผัดซีอิ๊ว คือก๋วยเตี๋ยวเส้นใหญ่ผัดกับซีอิ๊วขาว</p>
+                    <a href="ผัดซีอิ๊ว.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+                <div class="content-item" data-category="เมนูรสจัดจ้าน">
+                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20240715/pngtree-stir-fried-instant-noodle-with-pork-and-egg-image_15873595.jpg" alt="">
+                    <h4>ผัดมาม่า</h4>
+                    <p>(Pad Mama): ผัดมาม่าคือบะหมี่กึ่งสำเร็จรูปนำมาผัดใส่ไข่และเครื่องต่าง</p>
+                    <a href="ผัดมาม่า.html"class="content-btn">สูตรอาหาร</a>
+
+                </div>
+
+
+            </div>
+        </div>
+        
+    </section>
+   
+   
+   
+   <script>
+    window.onload = function () {
+    const firstBtn = document.querySelector('.category-bar a.active');
+    setActive(firstBtn, 'เมนูยอดนิยม');
+};
+function setActive(el, category) {
+
+    // 1. ลบ active ทุกปุ่ม
+    document.querySelectorAll('.category-bar a')
+    .forEach(a => a.classList.remove('active'));
+
+    // 2. ใส่ active ให้ปุ่มที่กด
+    el.classList.add('active');
+
+    // 3. ดึงรายการอาหารทั้งหมด
+    const items = document.querySelectorAll('.content-item');
+
+    items.forEach(item => {
+
+        // 4. เงื่อนไขแสดง/ซ่อน
+       if (category === 'all' || item.dataset.category.trim() === category.trim()) {
+            
+
+            item.style.display = "block";
+
+            // animation
+            item.style.opacity = 0;
+            item.style.transform = "translateY(10px)";
+
+            setTimeout(() => {
+                item.style.transition = "0.3s";
+                item.style.opacity = 1;
+                item.style.transform = "translateY(0)";
+            }, 50);
+
+        } else {
+            item.style.display = "none";
+        }
+    });
+ 
+}
+</script>
+
+
+
+
+
+    <section id="contact" class="contact">
+    <div class="footer-top">
+        <div class="conteainer">
+            <div class="footer-top-con">
+                <div class="footer-top-item">
+                    <h4>รายการสินค้าเเละบรีการ</h4>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">เมนูพื้นบ้านอาหาร</span>
+                            <span class="info-desc">ที่ใช้วัตถุดิบในท้องถิ่นและสืบทอดกันมา เช่น แกงพื้นบ้าน น้ำพริก และผักพื้นบ้าน.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">ของหวานไทย.</span>
+                            <span class="info-desc">ของหวานไทยขนมหวานที่มีรสหวานหอมและนิยมใช้กะทิ มะพร้าว และน้ำตาล เช่น ขนมครก บัวลอย และกล้วยบวชชี.</span>
+                        </div>
+                    </div>
+                    <div class="footer-top-item-con">
+                        <div class="date">
+                            ก.ค <br>
+                            24
+                        </div>
+                        <div class="info">
+                            <span class="info-title">เมนูไทยโบราณ.</span>
+                            <span class="info-desc">อาหารที่มีสูตรและวิธีทำสืบทอดจากคนรุ่นก่อน เช่น แกงมัสมั่น ข้าวแช่ และหมี่กรอบ.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-top-item">
+                    <h4>เกี่ยวกับเรา</h4>
+                    <p>sidey.</p>
+                </div>
+                <div class="footer-top-item">
+                    <h4>social link</h4>
+                    <p>Facebook</p>
+                    <p>twitter</p>
+                    <p>Google</p>
+                </div>
+            </div>
+        </div>
+    </div>                 
+    <div class="footer-buttom">Thaifood Thank you</div>
+    <p>kkkkkkkkkkkkkkkk</p>
+</body>
+</html>

@@ -1,0 +1,855 @@
+*{
+    margin: 0;
+    padding: 0;                    
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem;
+    background: linear-gradient(135deg, #ff4d4d, #ff7a18);
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    width: 100%;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    font-size: 2rem;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li{
+    margin: 0 1rem;
+}
+
+.menu li a {
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Itim", cursive;
+}
+
+.maincontent{
+    background-color: #d16767;
+    background: linear-gradient(1deg, #ffffff, #eea16b);
+}
+
+.maincontent-con{
+    display: flex;
+}
+
+.maincontent-info{
+    width: 100%;
+    padding: 2rem;
+}
+
+
+.maincontent-info h3{
+    font-family: "Itim", cursive;
+    font-size: 2rem;
+}
+
+.maincontent-info p{
+    font-size: 1rem;
+    margin: 1rem 0;
+    font-family: "Itim", cursive;
+    
+}
+
+
+
+.content-item {
+    display: none;
+}
+
+
+
+
+.content {
+  background: #f5f5f5;
+  padding: 40px 0;
+}
+
+/* container กลางหน้า */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* หัวข้อ */
+.content-header h2 {
+  color: red;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.content-header p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* เส้นแดง */
+.content-header {
+  border-bottom: 4px solid red;
+  padding-bottom: 15px;
+}
+
+/* แถบเมนู */
+.category-bar {
+  background: linear-gradient(135deg, #ff8181, #ff974d);
+  padding: 20px;
+  border-radius: 0 0 50px 50px;
+  
+}
+
+/* ปุ่ม */
+.category-bar .container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ปุ่มปกติ */
+.category-bar a {
+  text-decoration: none;
+  color: #000;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+/* ปุ่ม active */
+.category-bar a.active {
+  background: red;
+  color: #fff;
+}
+
+/* hover */
+.category-bar a:hover {
+  background: #ff4d4d;
+  color: #fff;
+}
+
+
+.container-title h3 {
+    color: #000;
+    font-size: 2rem;
+    
+}
+
+
+
+
+
+
+.maincontent-img img{
+    width: 300px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 50px;
+    
+    
+}
+
+
+.content-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 2rem;
+}
+.content-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+}
+
+.content-item h4{
+    margin-top: 1rem;
+}
+
+.content-item p{
+    margin: 1rem 0;
+}
+
+.content-item a{
+    display: inline-block;
+    color: #fff;
+    background-color: chocolate;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+     display: inline-block;
+    transition: 0.3s;
+    margin-top: auto;
+
+}
+.content-item a:hover {
+    background-color: rgb(119, 35, 7); /* ตอนเอาเมาส์ไปชี้ */
+}
+
+.footer-top{
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.863);
+    color: #fff;
+}
+.footer-top-con{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 2rem;
+}
+.footer-top-item-con{
+    display: flex;
+    margin: 1rem 0;
+}
+.footer-top-item-con .date{
+    background-color: #fff;
+    color: black;
+    padding: 2.5rem;
+    border-radius: 5sx;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item:nth-child(2) h4,
+.footer-top-item:nth-child(3) h4{
+    margin-bottom: 1rem;
+}
+
+.footer-buttom{
+    background-color: #afacac;
+    padding: 1rem;
+    text-align: center;
+}
+
+.main {
+  width: 100%;
+  max-width: 1920px;
+  min-height: 600px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+
+
+.section {
+  padding: 50px 0;
+  background: #f9f9f9;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ชื่อ */
+.section-title h1 {
+  color: red;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* แถบด้านบน */
+.section-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+/* ดาว */
+.rating {
+  color: red;
+  font-size: 18px;
+}
+
+/* tag */
+.tag span {
+  border: 1px solid red;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.info-box {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+}
+
+/* กล่อง */
+.box {
+  border: 1px solid red;
+  border-radius: 15px;
+  padding: 20px;
+  width: 160px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* hover */
+.box:hover {
+  background: red;
+  color: white;
+}
+.section-ssss{
+     border-bottom: 4px solid red;
+  padding-bottom: 15px;
+}
+
+
+
+/* ทั้งหน้า */
+body {
+  background: #fff;
+  margin: 0;
+}
+
+
+
+/* header */
+.menu-header {
+  background: #fff5f5;
+  border: 1px solid #ff4d4f;
+  border-radius: 999px;
+  padding: 12px 20px;
+  color: #ff4d4f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menu-header:hover {
+  background: #ffecec;
+  box-shadow: 0 4px 10px rgba(255, 77, 79, 0.2);
+}
+
+/* arrow */
+.menu-arrow {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.menu-header.active .menu-arrow {
+  transform: rotate(180deg);
+}
+
+/* content */
+.menu-content {
+  display: none;
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+
+  width: 1000%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* item */
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+
+
+
+
+.วิธีทำ {
+  background: #fff5f5;
+  border: 1px solid #ff4d4f;
+  border-radius: 999px;
+  padding: 12px 20px;
+  color: #ff4d4f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 500%;
+  max-width: 500px;
+  margin: 20px auto;
+
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+body {
+  font-family: sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 20px;
+}
+
+/* 📦 กล่องหลัก */
+.tmx-howto {
+  width: 100%;        /* 🔥 เต็มจอ */
+  max-width: none;    /* ❌ เอากรอบออก */
+  padding: 20px;
+}
+
+/* 🍲 หัวข้อ */
+.tmx-title {
+  margin-left: 100px;
+  background: #fff5f5;
+  border: 1px solid #ff4d4f;
+  border-radius: 999px;
+  padding: 12px 20px;
+  color: #ff4d4f;
+  
+
+  display: inline-block; /* ✔ ไม่เพี้ยน */
+  font-weight: 600;
+  margin-bottom: 15px
+
+}
+
+.tmx-howto h3 {
+  margin: 20px 0 5px 0;
+}
+
+.tmx-howto ul {
+  padding-left: 25px;
+}
+
+.tmx-howto li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.tmx-howto hr {
+  border: none;
+  border-top: 1px solid red;
+  margin: 20px 0;
+}
+
+
+
+
+
+
+/* ============================= */
+/* 📱 Responsive สำหรับมือถือ */
+/* ============================= */
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* กล่องหลัก */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* ============================= */
+/* Navbar */
+/* ============================= */
+
+nav {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.nav-con {
+    width: 100%;
+}
+
+.logo img {
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+}
+
+.menu {
+    gap: 5px;
+}
+
+.menu li {
+    margin: 0 5px;
+}
+
+.menu li a {
+    font-size: 16px;
+}
+
+/* ============================= */
+/* เนื้อหาหลัก */
+/* ============================= */
+
+.maincontent-con {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.maincontent-info {
+    width: 100%;
+    padding: 20px;
+}
+
+.maincontent-img {
+    width: 100%;
+}
+
+.maincontent-img img {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+
+/* ============================= */
+/* การ์ดอาหาร */
+/* ============================= */
+
+.content-con {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.content-item {
+    min-width: 0;
+}
+
+.content-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* ============================= */
+/* Footer */
+/* ============================= */
+
+.footer-top {
+    padding: 30px 15px;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.footer-top-item-con {
+    display: flex;
+    min-width: 0;
+}
+
+.footer-top-item-con .date {
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.footer-top-item-con .date img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    display: block;
+}
+
+.info {
+    min-width: 0;
+}
+
+.info-title,
+.info-desc {
+    display: block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+/* ============================= */
+/* กล่องข้อมูล */
+/* ============================= */
+
+.info-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 160px;
+}
+
+/* ============================= */
+/* เมนู */
+/* ============================= */
+
+.menu-header,
+.menu-content {
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* ============================= */
+/* 📱 มือถือ 768px ลงมา */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    nav {
+        padding: 8px 10px;
+    }
+
+    .nav-con {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .menu li {
+        margin: 3px 6px;
+    }
+
+    .menu li a {
+        font-size: 15px;
+    }
+
+    /* เนื้อหา */
+    .maincontent-info {
+        padding: 15px;
+    }
+
+    .maincontent-info h3 {
+        font-size: 1.6rem;
+    }
+
+    .maincontent-info p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* การ์ดอาหาร → 2 ช่อง */
+    .content-con {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .content-item img {
+        height: 160px;
+    }
+
+    /* Footer → 1 ช่อง */
+    .footer-top-con {
+        grid-template-columns: 1fr;
+    }
+
+    /* กล่องข้อมูล */
+    .info-box {
+        justify-content: center;
+    }
+
+    .box {
+        width: 140px;
+    }
+
+    /* หัวข้อ */
+    .section-title h1 {
+        font-size: 28px;
+    }
+
+    /* ปุ่มเมนู */
+    .menu-header {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .menu-content {
+        width: 100%;
+    }
+
+    /* วิธีทำ */
+    .วิธีทำ {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .tmx-howto {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .tmx-title {
+        margin-left: 0;
+        max-width: 100%;
+    }
+}
+
+/* ============================= */
+/* 📱 มือถือเล็ก 480px ลงมา */
+/* ============================= */
+
+@media (max-width: 480px) {
+
+    /* Navbar */
+    .logo img {
+        width: 100px;
+    }
+
+    .menu li a {
+        font-size: 14px;
+    }
+
+    /* การ์ดอาหาร → 1 ช่อง */
+    .content-con {
+        grid-template-columns: 1fr;
+    }
+
+    .content-item img {
+        height: 200px;
+    }
+
+    /* กล่องข้อมูล */
+    .info-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    /* รูป Footer */
+    .footer-top-item-con .date img {
+        width: 70px;
+        height: 55px;
+    }
+
+    /* ข้อความ */
+    .info-title {
+        font-size: 16px;
+    }
+
+    .info-desc {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    /* หัวข้อ */
+    .section-title h1 {
+        font-size: 24px;
+    }
+
+    .content-header h2 {
+        font-size: 24px;
+    }
+
+    /* วิธีทำ */
+    .tmx-title {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    .tmx-howto li {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .section-bar {
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .rating {
+        font-size: 16px;
+    }
+
+    .rating span {
+        font-size: 14px;
+    }
+
+    .tag {
+        justify-content: center;
+    }
+
+    .tag span {
+        font-size: 13px;
+        padding: 4px 10px;
+    }
+}
